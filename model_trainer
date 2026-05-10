@@ -65,3 +65,5 @@ def save_model_version(model, vectorizer, version_name):
     joblib.dump(vectorizer, vec_path)
     
     print(f"--- Successfully saved {version_name} artifacts to {base_path} ---")
+
+Delete:model_trainer
